@@ -53,6 +53,4 @@ public class FilmController {
         filmService.save(film);
         return new ResponseEntity<>("New film was added", HttpStatus.CREATED);
     }
-
-
 }
